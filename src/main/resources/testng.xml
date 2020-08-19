@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Tumblr">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Tumblr">
+		<classes>
+			<class name="com.tumblr.qa.testcases.LoginPageTest"></class>
+			<!-- <class name="com.tumblr.qa.testcases.HomePageTest"></class> -->
+			
+		</classes>
+	</test>
+</suite>
